@@ -26,7 +26,7 @@ function App() {
           </ul>
         </nav>
         <Switch>
-          <PrivateRoute exact path="/bubbles" componenet={BubblePage} />
+          <PrivateRoute exact path="/bubbles" component={BubblePage} />
           <Redirect exact from="/bubbles/reload" to="/bubbles" />
           <Route exact path="/" component={Login} />
           <Route component={Login} />
